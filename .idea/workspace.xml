@@ -1,7 +1,1455 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="d1954916-7a82-4913-b48a-b213bcf933c4" name="Default" comment="" />
+    <list default="true" id="d1954916-7a82-4913-b48a-b213bcf933c4" name="Default" comment="Create slack conection bot">
+      <change beforePath="" afterPath="$PROJECT_DIR$/server/witClient.js" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change beforePath="$PROJECT_DIR$/bin/run.js" afterPath="$PROJECT_DIR$/bin/run.js" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@sindresorhus/is/dist/example.d.ts" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@sindresorhus/is/dist/example.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@sindresorhus/is/dist/example.js.map" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@sindresorhus/is/dist/index.d.ts" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@sindresorhus/is/dist/index.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@sindresorhus/is/dist/index.js.map" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@sindresorhus/is/dist/source/index.d.ts" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@sindresorhus/is/dist/source/index.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@sindresorhus/is/dist/source/index.js.map" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@sindresorhus/is/dist/source/tests/test.d.ts" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@sindresorhus/is/dist/source/tests/test.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@sindresorhus/is/dist/source/tests/test.js.map" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@sindresorhus/is/license" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@sindresorhus/is/package.json" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@sindresorhus/is/readme.md" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@slack/client/.github/maintainers_guide.md" afterPath="$PROJECT_DIR$/node_modules/@slack/client/.github/maintainers_guide.md" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@slack/client/.lintstagedrc.json" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@slack/client/.nycrc.json" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@slack/client/.travis.yml" afterPath="$PROJECT_DIR$/node_modules/@slack/client/.travis.yml" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@slack/client/README.md" afterPath="$PROJECT_DIR$/node_modules/@slack/client/README.md" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@slack/client/dist/IncomingWebhook.d.ts" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@slack/client/dist/IncomingWebhook.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@slack/client/dist/IncomingWebhook.js.map" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@slack/client/dist/KeepAlive.d.ts" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@slack/client/dist/KeepAlive.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@slack/client/dist/KeepAlive.js.map" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@slack/client/dist/RTMClient.d.ts" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@slack/client/dist/RTMClient.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@slack/client/dist/RTMClient.js.map" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@slack/client/dist/WebClient.d.ts" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@slack/client/dist/WebClient.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@slack/client/dist/WebClient.js.map" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@slack/client/dist/errors.d.ts" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@slack/client/dist/errors.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@slack/client/dist/errors.js.map" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@slack/client/dist/index.d.ts" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@slack/client/dist/index.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@slack/client/dist/index.js.map" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@slack/client/dist/logger.d.ts" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@slack/client/dist/logger.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@slack/client/dist/logger.js.map" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@slack/client/dist/methods.d.ts" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@slack/client/dist/methods.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@slack/client/dist/methods.js.map" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@slack/client/dist/retry-policies.d.ts" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@slack/client/dist/retry-policies.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@slack/client/dist/retry-policies.js.map" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@slack/client/dist/util.d.ts" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@slack/client/dist/util.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@slack/client/dist/util.js.map" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@slack/client/docs/.ruby-version" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@slack/client/docs/_pages/getting_started.md" afterPath="$PROJECT_DIR$/node_modules/@slack/client/docs/_pages/getting_started.md" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@slack/client/docs/_pages/rtm_client.md" afterPath="$PROJECT_DIR$/node_modules/@slack/client/docs/_pages/rtm_client.md" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@slack/client/docs/_pages/web_client.md" afterPath="$PROJECT_DIR$/node_modules/@slack/client/docs/_pages/web_client.md" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@slack/client/docs/_posts/2018-03-08-v4.0.0.md" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@slack/client/docs/_posts/2018-03-14-v4.0.1.md" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@slack/client/docs/_posts/2018-03-23-v4.1.0.md" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@slack/client/docs/_reference/IncomingWebhook.md" afterPath="$PROJECT_DIR$/node_modules/@slack/client/docs/_reference/IncomingWebhook.md" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@slack/client/docs/_reference/RTMClient.md" afterPath="$PROJECT_DIR$/node_modules/@slack/client/docs/_reference/RTMClient.md" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@slack/client/docs/_reference/WebClient.md" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@slack/client/docs/index.md" afterPath="$PROJECT_DIR$/node_modules/@slack/client/docs/index.md" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@slack/client/examples/.nvmrc" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@slack/client/examples/README.md" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@slack/client/examples/basic-incoming-webhook.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@slack/client/examples/basic-rtm-client.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@slack/client/examples/basic-web-client.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@slack/client/examples/node_modules/@sindresorhus/is/dist/example.d.ts" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@slack/client/examples/node_modules/@sindresorhus/is/dist/example.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@slack/client/examples/node_modules/@sindresorhus/is/dist/example.js.map" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@slack/client/examples/node_modules/@sindresorhus/is/dist/index.d.ts" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@slack/client/examples/node_modules/@sindresorhus/is/dist/index.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@slack/client/examples/node_modules/@sindresorhus/is/dist/index.js.map" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@slack/client/examples/node_modules/@sindresorhus/is/dist/source/index.d.ts" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@slack/client/examples/node_modules/@sindresorhus/is/dist/source/index.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@slack/client/examples/node_modules/@sindresorhus/is/dist/source/index.js.map" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@slack/client/examples/node_modules/@sindresorhus/is/dist/source/tests/test.d.ts" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@slack/client/examples/node_modules/@sindresorhus/is/dist/source/tests/test.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@slack/client/examples/node_modules/@sindresorhus/is/dist/source/tests/test.js.map" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@slack/client/examples/node_modules/@sindresorhus/is/license" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@slack/client/examples/node_modules/@sindresorhus/is/readme.md" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@slack/client/examples/node_modules/@slack/client/.github/contributing.md" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@slack/client/examples/node_modules/@slack/client/.github/issue_template.md" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@slack/client/examples/node_modules/@slack/client/.github/maintainers_guide.md" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@slack/client/examples/node_modules/@slack/client/.github/pull_request_template.md" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@slack/client/examples/node_modules/@slack/client/.lintstagedrc.json" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@slack/client/examples/node_modules/@slack/client/.nycrc.json" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@slack/client/examples/node_modules/@slack/client/.travis.yml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@slack/client/examples/node_modules/@slack/client/LICENSE" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@slack/client/examples/node_modules/@slack/client/README.md" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@slack/client/examples/node_modules/@slack/client/dist/IncomingWebhook.d.ts" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@slack/client/examples/node_modules/@slack/client/dist/IncomingWebhook.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@slack/client/examples/node_modules/@slack/client/dist/IncomingWebhook.js.map" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@slack/client/examples/node_modules/@slack/client/dist/KeepAlive.d.ts" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@slack/client/examples/node_modules/@slack/client/dist/KeepAlive.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@slack/client/examples/node_modules/@slack/client/dist/KeepAlive.js.map" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@slack/client/examples/node_modules/@slack/client/dist/RTMClient.d.ts" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@slack/client/examples/node_modules/@slack/client/dist/RTMClient.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@slack/client/examples/node_modules/@slack/client/dist/RTMClient.js.map" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@slack/client/examples/node_modules/@slack/client/dist/WebClient.d.ts" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@slack/client/examples/node_modules/@slack/client/dist/WebClient.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@slack/client/examples/node_modules/@slack/client/dist/WebClient.js.map" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@slack/client/examples/node_modules/@slack/client/dist/errors.d.ts" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@slack/client/examples/node_modules/@slack/client/dist/errors.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@slack/client/examples/node_modules/@slack/client/dist/errors.js.map" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@slack/client/examples/node_modules/@slack/client/dist/index.d.ts" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@slack/client/examples/node_modules/@slack/client/dist/index.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@slack/client/examples/node_modules/@slack/client/dist/index.js.map" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@slack/client/examples/node_modules/@slack/client/dist/logger.d.ts" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@slack/client/examples/node_modules/@slack/client/dist/logger.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@slack/client/examples/node_modules/@slack/client/dist/logger.js.map" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@slack/client/examples/node_modules/@slack/client/dist/methods.d.ts" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@slack/client/examples/node_modules/@slack/client/dist/methods.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@slack/client/examples/node_modules/@slack/client/dist/methods.js.map" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@slack/client/examples/node_modules/@slack/client/dist/retry-policies.d.ts" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@slack/client/examples/node_modules/@slack/client/dist/retry-policies.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@slack/client/examples/node_modules/@slack/client/dist/retry-policies.js.map" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@slack/client/examples/node_modules/@slack/client/dist/util.d.ts" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@slack/client/examples/node_modules/@slack/client/dist/util.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@slack/client/examples/node_modules/@slack/client/dist/util.js.map" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@slack/client/examples/node_modules/@slack/client/docs/.ruby-version" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@slack/client/examples/node_modules/@slack/client/docs/Gemfile" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@slack/client/examples/node_modules/@slack/client/docs/Gemfile.lock" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@slack/client/examples/node_modules/@slack/client/docs/_config.yml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@slack/client/examples/node_modules/@slack/client/docs/_includes/analytics.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@slack/client/examples/node_modules/@slack/client/docs/_includes/head.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@slack/client/examples/node_modules/@slack/client/docs/_includes/page_header.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@slack/client/examples/node_modules/@slack/client/docs/_includes/side_nav.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@slack/client/examples/node_modules/@slack/client/docs/_layouts/changelog.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@slack/client/examples/node_modules/@slack/client/docs/_layouts/default.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@slack/client/examples/node_modules/@slack/client/docs/_layouts/page.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@slack/client/examples/node_modules/@slack/client/docs/_pages/about.md" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@slack/client/examples/node_modules/@slack/client/docs/_pages/auth.md" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@slack/client/examples/node_modules/@slack/client/docs/_pages/changelog.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@slack/client/examples/node_modules/@slack/client/docs/_pages/getting_started.md" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@slack/client/examples/node_modules/@slack/client/docs/_pages/incoming_webhook.md" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@slack/client/examples/node_modules/@slack/client/docs/_pages/rtm_client.md" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@slack/client/examples/node_modules/@slack/client/docs/_pages/web_client.md" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@slack/client/examples/node_modules/@slack/client/docs/_posts/2014-12-08-v1.2.0.md" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@slack/client/examples/node_modules/@slack/client/docs/_posts/2014-12-16-v1.2.2.md" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@slack/client/examples/node_modules/@slack/client/docs/_posts/2015-02-03-v1.3.1.md" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@slack/client/examples/node_modules/@slack/client/docs/_posts/2015-02-25-v1.4.0.md" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@slack/client/examples/node_modules/@slack/client/docs/_posts/2015-12-01-v1.5.0.md" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@slack/client/examples/node_modules/@slack/client/docs/_posts/2015-12-15-v1.5.1.md" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@slack/client/examples/node_modules/@slack/client/docs/_posts/2016-02-13-v2.0.0.md" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@slack/client/examples/node_modules/@slack/client/docs/_posts/2016-02-13-v2.0.1.md" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@slack/client/examples/node_modules/@slack/client/docs/_posts/2016-02-15-v2.0.2.md" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@slack/client/examples/node_modules/@slack/client/docs/_posts/2016-02-28-v2.0.3.md" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@slack/client/examples/node_modules/@slack/client/docs/_posts/2016-02-28-v2.0.4.md" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@slack/client/examples/node_modules/@slack/client/docs/_posts/2016-02-28-v2.3.0.md" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@slack/client/examples/node_modules/@slack/client/docs/_posts/2016-03-01-v2.0.5.md" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@slack/client/examples/node_modules/@slack/client/docs/_posts/2016-03-01-v2.0.6.md" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@slack/client/examples/node_modules/@slack/client/docs/_posts/2016-03-05-v2.1.0.md" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@slack/client/examples/node_modules/@slack/client/docs/_posts/2016-03-12-v2.2.0.md" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@slack/client/examples/node_modules/@slack/client/docs/_posts/2016-03-12-v2.2.1.md" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@slack/client/examples/node_modules/@slack/client/docs/_posts/2016-04-24-v3.0.0.md" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@slack/client/examples/node_modules/@slack/client/docs/_posts/2016-05-01-v3.1.0.md" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@slack/client/examples/node_modules/@slack/client/docs/_posts/2016-05-19-v3.1.1.md" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@slack/client/examples/node_modules/@slack/client/docs/_posts/2016-05-23-v3.2.0.md" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@slack/client/examples/node_modules/@slack/client/docs/_posts/2016-05-24-v3.2.1.md" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@slack/client/examples/node_modules/@slack/client/docs/_posts/2016-05-24-v3.3.0.md" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@slack/client/examples/node_modules/@slack/client/docs/_posts/2016-05-26-v3.3.1.md" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@slack/client/examples/node_modules/@slack/client/docs/_posts/2016-05-31-v3.4.0.md" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@slack/client/examples/node_modules/@slack/client/docs/_posts/2016-06-14-v3.5.0.md" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@slack/client/examples/node_modules/@slack/client/docs/_posts/2016-07-06-v3.5.1.md" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@slack/client/examples/node_modules/@slack/client/docs/_posts/2016-07-25-v3.5.2.md" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@slack/client/examples/node_modules/@slack/client/docs/_posts/2016-07-25-v3.5.3.md" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@slack/client/examples/node_modules/@slack/client/docs/_posts/2016-07-29-v3.5.4.md" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@slack/client/examples/node_modules/@slack/client/docs/_posts/2016-09-06-v3.6.0.md" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@slack/client/examples/node_modules/@slack/client/docs/_posts/2016-11-10-v3.6.1.md" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@slack/client/examples/node_modules/@slack/client/docs/_posts/2016-12-05-3.7.0.md" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@slack/client/examples/node_modules/@slack/client/docs/_posts/2016-12-20-3.8.0.md" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@slack/client/examples/node_modules/@slack/client/docs/_posts/2016-12-20-3.8.1.md" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@slack/client/examples/node_modules/@slack/client/docs/_posts/2017-03-15-3.9.0.md" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@slack/client/examples/node_modules/@slack/client/docs/_posts/2017-05-25-v3.10.0.md" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@slack/client/examples/node_modules/@slack/client/docs/_posts/2017-08-11-v3.11.0.md" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@slack/client/examples/node_modules/@slack/client/docs/_posts/2017-08-24-v3.12.0.md" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@slack/client/examples/node_modules/@slack/client/docs/_posts/2017-09-12-v3.13.0.md" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@slack/client/examples/node_modules/@slack/client/docs/_posts/2017-09-12-v3.14.0.md" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@slack/client/examples/node_modules/@slack/client/docs/_posts/2017-09-12-v3.14.1.md" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@slack/client/examples/node_modules/@slack/client/docs/_posts/2017-09-12-v3.14.2.md" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@slack/client/examples/node_modules/@slack/client/docs/_posts/2017-12-21-v3.15.0.md" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@slack/client/examples/node_modules/@slack/client/docs/_posts/2017-12-21-v3.16.0.md" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@slack/client/examples/node_modules/@slack/client/docs/_posts/2018-03-08-v4.0.0.md" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@slack/client/examples/node_modules/@slack/client/docs/_posts/2018-03-14-v4.0.1.md" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@slack/client/examples/node_modules/@slack/client/docs/_reference/IncomingWebhook.md" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@slack/client/examples/node_modules/@slack/client/docs/_reference/RTMClient.md" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@slack/client/examples/node_modules/@slack/client/docs/_reference/WebClient.md" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@slack/client/examples/node_modules/@slack/client/docs/index.md" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@slack/client/examples/node_modules/@slack/client/migration_guide_v4.md" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@slack/client/examples/node_modules/@slack/client/package.json" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@slack/client/examples/node_modules/@slack/client/rtm-testing.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@slack/client/examples/node_modules/@slack/client/src/IncomingWebhook.spec.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@slack/client/examples/node_modules/@slack/client/src/IncomingWebhook.ts" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@slack/client/examples/node_modules/@slack/client/src/KeepAlive.ts" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@slack/client/examples/node_modules/@slack/client/src/RTMClient.ts" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@slack/client/examples/node_modules/@slack/client/src/WebClient.spec.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@slack/client/examples/node_modules/@slack/client/src/WebClient.ts" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@slack/client/examples/node_modules/@slack/client/src/errors.ts" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@slack/client/examples/node_modules/@slack/client/src/index.ts" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@slack/client/examples/node_modules/@slack/client/src/logger.ts" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@slack/client/examples/node_modules/@slack/client/src/methods.ts" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@slack/client/examples/node_modules/@slack/client/src/mocha.opts" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@slack/client/examples/node_modules/@slack/client/src/retry-policies.ts" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@slack/client/examples/node_modules/@slack/client/src/util.ts" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@slack/client/examples/node_modules/@slack/client/support/jsdoc-to-markdown.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@slack/client/examples/node_modules/@slack/client/support/jsdoc/@slack-client-dist-KeepAlive.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@slack/client/examples/node_modules/@slack/client/support/jsdoc/@slack-client-dist-errors.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@slack/client/examples/node_modules/@slack/client/support/jsdoc/@slack-client-dist-logger.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@slack/client/examples/node_modules/@slack/client/support/jsdoc/@slack-client-dist-methods.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@slack/client/examples/node_modules/@slack/client/support/jsdoc/@slack-client-dist-retry-policies.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@slack/client/examples/node_modules/@slack/client/support/jsdoc/@slack-client-dist-util.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@slack/client/examples/node_modules/@slack/client/support/jsdoc/@slack-client.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@slack/client/examples/node_modules/@slack/client/support/templates/docs-main.hbs" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@slack/client/examples/node_modules/@slack/client/support/templates/docs.hbs" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@slack/client/examples/node_modules/@slack/client/support/templates/members.hbs" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@slack/client/examples/node_modules/@slack/client/tmp1.txt" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@slack/client/examples/node_modules/@slack/client/tsconfig.json" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@slack/client/examples/node_modules/@slack/client/tslint.json" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@slack/client/examples/node_modules/@slack/client/types/eventemitter3.d.ts" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@slack/client/examples/node_modules/@slack/client/types/object.entries.d.ts" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@slack/client/examples/node_modules/@slack/client/types/object.values.d.ts" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@slack/client/examples/node_modules/@types/delay/LICENSE" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@slack/client/examples/node_modules/@types/delay/README.md" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@slack/client/examples/node_modules/@types/delay/index.d.ts" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@slack/client/examples/node_modules/@types/delay/package.json" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@slack/client/examples/node_modules/@types/events/LICENSE" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@slack/client/examples/node_modules/@types/events/README.md" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@slack/client/examples/node_modules/@types/events/index.d.ts" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@slack/client/examples/node_modules/@types/events/package.json" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@slack/client/examples/node_modules/@types/form-data/LICENSE" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@slack/client/examples/node_modules/@types/form-data/README.md" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@slack/client/examples/node_modules/@types/form-data/index.d.ts" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@slack/client/examples/node_modules/@types/form-data/package.json" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@slack/client/examples/node_modules/@types/got/LICENSE" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@slack/client/examples/node_modules/@types/got/README.md" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@slack/client/examples/node_modules/@types/got/index.d.ts" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@slack/client/examples/node_modules/@types/got/package.json" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@slack/client/examples/node_modules/@types/is-stream/LICENSE" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@slack/client/examples/node_modules/@types/is-stream/README.md" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@slack/client/examples/node_modules/@types/is-stream/index.d.ts" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@slack/client/examples/node_modules/@types/is-stream/package.json" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@slack/client/examples/node_modules/@types/loglevel/LICENSE" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@slack/client/examples/node_modules/@types/loglevel/README.md" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@slack/client/examples/node_modules/@types/loglevel/index.d.ts" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@slack/client/examples/node_modules/@types/loglevel/package.json" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@slack/client/examples/node_modules/@types/node/LICENSE" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@slack/client/examples/node_modules/@types/node/README.md" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@slack/client/examples/node_modules/@types/node/index.d.ts" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@slack/client/examples/node_modules/@types/node/inspector.d.ts" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@slack/client/examples/node_modules/@types/node/package.json" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@slack/client/examples/node_modules/@types/p-cancelable/LICENSE" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@slack/client/examples/node_modules/@types/p-cancelable/README.md" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@slack/client/examples/node_modules/@types/p-cancelable/index.d.ts" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@slack/client/examples/node_modules/@types/p-cancelable/package.json" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@slack/client/examples/node_modules/@types/p-queue/LICENSE" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@slack/client/examples/node_modules/@types/p-queue/README.md" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@slack/client/examples/node_modules/@types/p-queue/index.d.ts" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@slack/client/examples/node_modules/@types/p-queue/package.json" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@slack/client/examples/node_modules/@types/p-retry/LICENSE" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@slack/client/examples/node_modules/@types/p-retry/README.md" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@slack/client/examples/node_modules/@types/p-retry/index.d.ts" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@slack/client/examples/node_modules/@types/p-retry/package.json" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@slack/client/examples/node_modules/@types/retry/LICENSE" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@slack/client/examples/node_modules/@types/retry/README.md" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@slack/client/examples/node_modules/@types/retry/index.d.ts" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@slack/client/examples/node_modules/@types/retry/package.json" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@slack/client/examples/node_modules/@types/url-join/README.md" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@slack/client/examples/node_modules/@types/url-join/index.d.ts" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@slack/client/examples/node_modules/@types/url-join/package.json" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@slack/client/examples/node_modules/@types/url-join/types-metadata.json" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@slack/client/examples/node_modules/@types/ws/LICENSE" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@slack/client/examples/node_modules/@types/ws/README.md" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@slack/client/examples/node_modules/@types/ws/index.d.ts" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@slack/client/examples/node_modules/@types/ws/package.json" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@slack/client/examples/node_modules/async-limiter/.travis.yml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@slack/client/examples/node_modules/async-limiter/LICENSE" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@slack/client/examples/node_modules/async-limiter/index.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@slack/client/examples/node_modules/async-limiter/package.json" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@slack/client/examples/node_modules/async-limiter/readme.md" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@slack/client/examples/node_modules/asynckit/LICENSE" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@slack/client/examples/node_modules/asynckit/README.md" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@slack/client/examples/node_modules/asynckit/bench.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@slack/client/examples/node_modules/asynckit/index.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@slack/client/examples/node_modules/asynckit/lib/abort.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@slack/client/examples/node_modules/asynckit/lib/async.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@slack/client/examples/node_modules/asynckit/lib/defer.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@slack/client/examples/node_modules/asynckit/lib/iterate.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@slack/client/examples/node_modules/asynckit/lib/readable_asynckit.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@slack/client/examples/node_modules/asynckit/lib/readable_parallel.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@slack/client/examples/node_modules/asynckit/lib/readable_serial.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@slack/client/examples/node_modules/asynckit/lib/readable_serial_ordered.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@slack/client/examples/node_modules/asynckit/lib/state.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@slack/client/examples/node_modules/asynckit/lib/streamify.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@slack/client/examples/node_modules/asynckit/lib/terminator.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@slack/client/examples/node_modules/asynckit/package.json" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@slack/client/examples/node_modules/asynckit/parallel.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@slack/client/examples/node_modules/asynckit/serial.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@slack/client/examples/node_modules/asynckit/serialOrdered.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@slack/client/examples/node_modules/asynckit/stream.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@slack/client/examples/node_modules/cacheable-request/LICENSE" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@slack/client/examples/node_modules/cacheable-request/README.md" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@slack/client/examples/node_modules/cacheable-request/node_modules/lowercase-keys/index.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@slack/client/examples/node_modules/cacheable-request/node_modules/lowercase-keys/readme.md" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@slack/client/examples/node_modules/cacheable-request/package.json" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@slack/client/examples/node_modules/cacheable-request/src/index.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@slack/client/examples/node_modules/clone-response/LICENSE" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@slack/client/examples/node_modules/clone-response/README.md" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@slack/client/examples/node_modules/clone-response/package.json" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@slack/client/examples/node_modules/clone-response/src/index.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@slack/client/examples/node_modules/combined-stream/License" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@slack/client/examples/node_modules/combined-stream/Readme.md" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@slack/client/examples/node_modules/combined-stream/lib/combined_stream.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@slack/client/examples/node_modules/combined-stream/lib/defer.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@slack/client/examples/node_modules/combined-stream/package.json" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@slack/client/examples/node_modules/core-util-is/LICENSE" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@slack/client/examples/node_modules/core-util-is/README.md" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@slack/client/examples/node_modules/core-util-is/float.patch" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@slack/client/examples/node_modules/core-util-is/lib/util.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@slack/client/examples/node_modules/core-util-is/package.json" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@slack/client/examples/node_modules/core-util-is/test.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@slack/client/examples/node_modules/decode-uri-component/index.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@slack/client/examples/node_modules/decode-uri-component/license" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@slack/client/examples/node_modules/decode-uri-component/readme.md" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@slack/client/examples/node_modules/decompress-response/index.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@slack/client/examples/node_modules/decompress-response/license" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@slack/client/examples/node_modules/decompress-response/readme.md" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@slack/client/examples/node_modules/define-properties/.editorconfig" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@slack/client/examples/node_modules/define-properties/.eslintrc" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@slack/client/examples/node_modules/define-properties/.jscs.json" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@slack/client/examples/node_modules/define-properties/.travis.yml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@slack/client/examples/node_modules/define-properties/CHANGELOG.md" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@slack/client/examples/node_modules/define-properties/LICENSE" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@slack/client/examples/node_modules/define-properties/README.md" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@slack/client/examples/node_modules/define-properties/index.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@slack/client/examples/node_modules/define-properties/package.json" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@slack/client/examples/node_modules/define-properties/test/index.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@slack/client/examples/node_modules/delay/index.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@slack/client/examples/node_modules/delay/license" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@slack/client/examples/node_modules/delay/readme.md" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@slack/client/examples/node_modules/delayed-stream/License" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@slack/client/examples/node_modules/delayed-stream/Makefile" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@slack/client/examples/node_modules/delayed-stream/Readme.md" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@slack/client/examples/node_modules/delayed-stream/lib/delayed_stream.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@slack/client/examples/node_modules/delayed-stream/package.json" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@slack/client/examples/node_modules/duplexer3/LICENSE.md" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@slack/client/examples/node_modules/duplexer3/README.md" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@slack/client/examples/node_modules/duplexer3/index.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@slack/client/examples/node_modules/es-abstract/.editorconfig" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@slack/client/examples/node_modules/es-abstract/.eslintrc" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@slack/client/examples/node_modules/es-abstract/.jscs.json" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@slack/client/examples/node_modules/es-abstract/.nycrc" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@slack/client/examples/node_modules/es-abstract/.travis.yml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@slack/client/examples/node_modules/es-abstract/CHANGELOG.md" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@slack/client/examples/node_modules/es-abstract/LICENSE" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@slack/client/examples/node_modules/es-abstract/Makefile" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@slack/client/examples/node_modules/es-abstract/README.md" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@slack/client/examples/node_modules/es-abstract/es2015.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@slack/client/examples/node_modules/es-abstract/es2016.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@slack/client/examples/node_modules/es-abstract/es2017.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@slack/client/examples/node_modules/es-abstract/es5.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@slack/client/examples/node_modules/es-abstract/es6.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@slack/client/examples/node_modules/es-abstract/es7.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@slack/client/examples/node_modules/es-abstract/helpers/assign.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@slack/client/examples/node_modules/es-abstract/helpers/isFinite.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@slack/client/examples/node_modules/es-abstract/helpers/isNaN.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@slack/client/examples/node_modules/es-abstract/helpers/isPrimitive.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@slack/client/examples/node_modules/es-abstract/helpers/mod.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@slack/client/examples/node_modules/es-abstract/helpers/sign.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@slack/client/examples/node_modules/es-abstract/index.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@slack/client/examples/node_modules/es-abstract/operations/2015.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@slack/client/examples/node_modules/es-abstract/operations/2016.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@slack/client/examples/node_modules/es-abstract/operations/2017.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@slack/client/examples/node_modules/es-abstract/operations/es5.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@slack/client/examples/node_modules/es-abstract/package.json" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@slack/client/examples/node_modules/es-abstract/test/.eslintrc" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@slack/client/examples/node_modules/es-abstract/test/diffOps.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@slack/client/examples/node_modules/es-abstract/test/es2015.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@slack/client/examples/node_modules/es-abstract/test/es2016.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@slack/client/examples/node_modules/es-abstract/test/es2017.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@slack/client/examples/node_modules/es-abstract/test/es5.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@slack/client/examples/node_modules/es-abstract/test/es6.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@slack/client/examples/node_modules/es-abstract/test/es7.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@slack/client/examples/node_modules/es-abstract/test/helpers/values.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@slack/client/examples/node_modules/es-abstract/test/index.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@slack/client/examples/node_modules/es-abstract/test/tests.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@slack/client/examples/node_modules/es-to-primitive/.eslintrc" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@slack/client/examples/node_modules/es-to-primitive/.jscs.json" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@slack/client/examples/node_modules/es-to-primitive/.travis.yml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@slack/client/examples/node_modules/es-to-primitive/CHANGELOG.md" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@slack/client/examples/node_modules/es-to-primitive/LICENSE" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@slack/client/examples/node_modules/es-to-primitive/Makefile" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@slack/client/examples/node_modules/es-to-primitive/README.md" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@slack/client/examples/node_modules/es-to-primitive/es5.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@slack/client/examples/node_modules/es-to-primitive/es6.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@slack/client/examples/node_modules/es-to-primitive/helpers/isPrimitive.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@slack/client/examples/node_modules/es-to-primitive/index.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@slack/client/examples/node_modules/es-to-primitive/package.json" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@slack/client/examples/node_modules/es-to-primitive/test/es5.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@slack/client/examples/node_modules/es-to-primitive/test/es6.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@slack/client/examples/node_modules/es-to-primitive/test/index.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@slack/client/examples/node_modules/eventemitter3/LICENSE" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@slack/client/examples/node_modules/eventemitter3/README.md" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@slack/client/examples/node_modules/eventemitter3/index.d.ts" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@slack/client/examples/node_modules/eventemitter3/index.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@slack/client/examples/node_modules/eventemitter3/umd/eventemitter3.min.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@slack/client/examples/node_modules/finity/CODE_OF_CONDUCT.md" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@slack/client/examples/node_modules/finity/LICENSE" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@slack/client/examples/node_modules/finity/README.md" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@slack/client/examples/node_modules/finity/ROADMAP.md" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@slack/client/examples/node_modules/finity/index.d.ts" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@slack/client/examples/node_modules/finity/lib/Finity.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@slack/client/examples/node_modules/finity/lib/configuration/AsyncActionConfigurator.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@slack/client/examples/node_modules/finity/lib/configuration/BaseConfigurator.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@slack/client/examples/node_modules/finity/lib/configuration/GlobalConfigurator.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@slack/client/examples/node_modules/finity/lib/configuration/StateConfigurator.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@slack/client/examples/node_modules/finity/lib/configuration/StateMachineConfigurator.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@slack/client/examples/node_modules/finity/lib/configuration/TimerConfigurator.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@slack/client/examples/node_modules/finity/lib/configuration/TransitionConfigurator.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@slack/client/examples/node_modules/finity/lib/configuration/TriggerConfigurator.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@slack/client/examples/node_modules/finity/lib/configuration/delegateToAncestor.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@slack/client/examples/node_modules/finity/lib/configuration/index.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@slack/client/examples/node_modules/finity/lib/core/HierarchicalStateMachine.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@slack/client/examples/node_modules/finity/lib/core/StateMachine.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@slack/client/examples/node_modules/finity/lib/core/TaskScheduler.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@slack/client/examples/node_modules/finity/lib/index.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@slack/client/examples/node_modules/finity/lib/utils/invokeEach.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@slack/client/examples/node_modules/finity/lib/utils/mapValues.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@slack/client/examples/node_modules/finity/lib/utils/merge.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@slack/client/examples/node_modules/finity/umd/Finity.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@slack/client/examples/node_modules/finity/umd/Finity.min.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@slack/client/examples/node_modules/foreach/LICENSE" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@slack/client/examples/node_modules/foreach/Makefile" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@slack/client/examples/node_modules/foreach/Readme.md" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@slack/client/examples/node_modules/foreach/component.json" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@slack/client/examples/node_modules/foreach/index.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@slack/client/examples/node_modules/foreach/package.json" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@slack/client/examples/node_modules/foreach/test.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@slack/client/examples/node_modules/form-data/License" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@slack/client/examples/node_modules/form-data/README.md" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@slack/client/examples/node_modules/form-data/README.md.bak" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@slack/client/examples/node_modules/form-data/lib/browser.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@slack/client/examples/node_modules/form-data/lib/form_data.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@slack/client/examples/node_modules/form-data/lib/populate.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@slack/client/examples/node_modules/form-data/package.json" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@slack/client/examples/node_modules/from2/.travis.yml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@slack/client/examples/node_modules/from2/LICENSE.md" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@slack/client/examples/node_modules/from2/README.md" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@slack/client/examples/node_modules/from2/index.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@slack/client/examples/node_modules/from2/package.json" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@slack/client/examples/node_modules/from2/test.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@slack/client/examples/node_modules/function-bind/.editorconfig" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@slack/client/examples/node_modules/function-bind/.eslintrc" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@slack/client/examples/node_modules/function-bind/.jscs.json" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@slack/client/examples/node_modules/function-bind/.travis.yml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@slack/client/examples/node_modules/function-bind/LICENSE" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@slack/client/examples/node_modules/function-bind/README.md" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@slack/client/examples/node_modules/function-bind/implementation.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@slack/client/examples/node_modules/function-bind/index.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@slack/client/examples/node_modules/function-bind/package.json" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@slack/client/examples/node_modules/function-bind/test/.eslintrc" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@slack/client/examples/node_modules/function-bind/test/index.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@slack/client/examples/node_modules/get-stream/buffer-stream.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@slack/client/examples/node_modules/get-stream/index.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@slack/client/examples/node_modules/get-stream/license" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@slack/client/examples/node_modules/get-stream/readme.md" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@slack/client/examples/node_modules/got/errors.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@slack/client/examples/node_modules/got/index.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@slack/client/examples/node_modules/got/license" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@slack/client/examples/node_modules/got/readme.md" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@slack/client/examples/node_modules/has-symbol-support-x/.editorconfig" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@slack/client/examples/node_modules/has-symbol-support-x/.eslintignore" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@slack/client/examples/node_modules/has-symbol-support-x/.eslintrc.json" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@slack/client/examples/node_modules/has-symbol-support-x/.nvmrc" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@slack/client/examples/node_modules/has-symbol-support-x/.travis.yml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@slack/client/examples/node_modules/has-symbol-support-x/.uglifyjsrc.json" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@slack/client/examples/node_modules/has-symbol-support-x/LICENSE" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@slack/client/examples/node_modules/has-symbol-support-x/README.md" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@slack/client/examples/node_modules/has-symbol-support-x/badges.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@slack/client/examples/node_modules/has-symbol-support-x/index.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@slack/client/examples/node_modules/has-symbol-support-x/lib/has-symbol-support-x.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@slack/client/examples/node_modules/has-symbol-support-x/lib/has-symbol-support-x.min.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@slack/client/examples/node_modules/has-symbol-support-x/lib/has-symbol-support-x.min.js.map" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@slack/client/examples/node_modules/has-symbol-support-x/package.json" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@slack/client/examples/node_modules/has-symbol-support-x/tests/index.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@slack/client/examples/node_modules/has-symbol-support-x/tests/run.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@slack/client/examples/node_modules/has-to-string-tag-x/.editorconfig" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@slack/client/examples/node_modules/has-to-string-tag-x/.eslintignore" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@slack/client/examples/node_modules/has-to-string-tag-x/.eslintrc.json" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@slack/client/examples/node_modules/has-to-string-tag-x/.nvmrc" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@slack/client/examples/node_modules/has-to-string-tag-x/.travis.yml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@slack/client/examples/node_modules/has-to-string-tag-x/.uglifyjsrc.json" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@slack/client/examples/node_modules/has-to-string-tag-x/LICENSE" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@slack/client/examples/node_modules/has-to-string-tag-x/README.md" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@slack/client/examples/node_modules/has-to-string-tag-x/badges.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@slack/client/examples/node_modules/has-to-string-tag-x/index.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@slack/client/examples/node_modules/has-to-string-tag-x/lib/has-to-string-tag-x.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@slack/client/examples/node_modules/has-to-string-tag-x/lib/has-to-string-tag-x.min.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@slack/client/examples/node_modules/has-to-string-tag-x/lib/has-to-string-tag-x.min.js.map" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@slack/client/examples/node_modules/has-to-string-tag-x/package.json" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@slack/client/examples/node_modules/has/.jshintrc" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@slack/client/examples/node_modules/has/LICENSE-MIT" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@slack/client/examples/node_modules/has/README.mkd" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@slack/client/examples/node_modules/has/package.json" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@slack/client/examples/node_modules/has/src/index.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@slack/client/examples/node_modules/has/test/.jshintrc" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@slack/client/examples/node_modules/has/test/index.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@slack/client/examples/node_modules/http-cache-semantics/README.md" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@slack/client/examples/node_modules/http-cache-semantics/node4/index.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@slack/client/examples/node_modules/inherits/LICENSE" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@slack/client/examples/node_modules/inherits/README.md" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@slack/client/examples/node_modules/inherits/inherits.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@slack/client/examples/node_modules/inherits/inherits_browser.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@slack/client/examples/node_modules/into-stream/index.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@slack/client/examples/node_modules/into-stream/license" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@slack/client/examples/node_modules/into-stream/readme.md" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@slack/client/examples/node_modules/is-callable/.eslintrc" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@slack/client/examples/node_modules/is-callable/.jscs.json" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@slack/client/examples/node_modules/is-callable/.travis.yml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@slack/client/examples/node_modules/is-callable/CHANGELOG.md" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@slack/client/examples/node_modules/is-callable/LICENSE" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@slack/client/examples/node_modules/is-callable/Makefile" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@slack/client/examples/node_modules/is-callable/README.md" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@slack/client/examples/node_modules/is-callable/index.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@slack/client/examples/node_modules/is-callable/package.json" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@slack/client/examples/node_modules/is-callable/test.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@slack/client/examples/node_modules/is-date-object/.eslintrc" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@slack/client/examples/node_modules/is-date-object/.jscs.json" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@slack/client/examples/node_modules/is-date-object/.travis.yml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@slack/client/examples/node_modules/is-date-object/CHANGELOG.md" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@slack/client/examples/node_modules/is-date-object/LICENSE" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@slack/client/examples/node_modules/is-date-object/Makefile" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@slack/client/examples/node_modules/is-date-object/README.md" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@slack/client/examples/node_modules/is-date-object/index.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@slack/client/examples/node_modules/is-date-object/package.json" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@slack/client/examples/node_modules/is-date-object/test.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@slack/client/examples/node_modules/is-object/.jscs.json" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@slack/client/examples/node_modules/is-object/.testem.json" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@slack/client/examples/node_modules/is-object/.travis.yml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@slack/client/examples/node_modules/is-object/LICENSE" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@slack/client/examples/node_modules/is-object/README.md" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@slack/client/examples/node_modules/is-object/index.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@slack/client/examples/node_modules/is-object/package.json" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@slack/client/examples/node_modules/is-object/test/index.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@slack/client/examples/node_modules/is-plain-obj/index.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@slack/client/examples/node_modules/is-plain-obj/license" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@slack/client/examples/node_modules/is-plain-obj/readme.md" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@slack/client/examples/node_modules/is-regex/.eslintrc" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@slack/client/examples/node_modules/is-regex/.jscs.json" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@slack/client/examples/node_modules/is-regex/.travis.yml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@slack/client/examples/node_modules/is-regex/CHANGELOG.md" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@slack/client/examples/node_modules/is-regex/LICENSE" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@slack/client/examples/node_modules/is-regex/Makefile" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@slack/client/examples/node_modules/is-regex/README.md" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@slack/client/examples/node_modules/is-regex/index.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@slack/client/examples/node_modules/is-regex/package.json" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@slack/client/examples/node_modules/is-regex/test.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@slack/client/examples/node_modules/is-retry-allowed/index.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@slack/client/examples/node_modules/is-retry-allowed/license" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@slack/client/examples/node_modules/is-retry-allowed/readme.md" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@slack/client/examples/node_modules/is-stream/index.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@slack/client/examples/node_modules/is-stream/license" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@slack/client/examples/node_modules/is-stream/readme.md" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@slack/client/examples/node_modules/is-symbol/.editorconfig" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@slack/client/examples/node_modules/is-symbol/.eslintrc" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@slack/client/examples/node_modules/is-symbol/.jscs.json" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@slack/client/examples/node_modules/is-symbol/.nvmrc" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@slack/client/examples/node_modules/is-symbol/.travis.yml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@slack/client/examples/node_modules/is-symbol/CHANGELOG.md" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@slack/client/examples/node_modules/is-symbol/LICENSE" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@slack/client/examples/node_modules/is-symbol/Makefile" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@slack/client/examples/node_modules/is-symbol/README.md" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@slack/client/examples/node_modules/is-symbol/index.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@slack/client/examples/node_modules/is-symbol/package.json" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@slack/client/examples/node_modules/is-symbol/test/index.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@slack/client/examples/node_modules/isarray/.travis.yml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@slack/client/examples/node_modules/isarray/Makefile" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@slack/client/examples/node_modules/isarray/README.md" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@slack/client/examples/node_modules/isarray/component.json" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@slack/client/examples/node_modules/isarray/index.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@slack/client/examples/node_modules/isarray/package.json" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@slack/client/examples/node_modules/isarray/test.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@slack/client/examples/node_modules/isurl/LICENSE" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@slack/client/examples/node_modules/isurl/README.md" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@slack/client/examples/node_modules/isurl/index.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@slack/client/examples/node_modules/json-buffer/.travis.yml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@slack/client/examples/node_modules/json-buffer/LICENSE" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@slack/client/examples/node_modules/json-buffer/README.md" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@slack/client/examples/node_modules/json-buffer/index.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@slack/client/examples/node_modules/json-buffer/package.json" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@slack/client/examples/node_modules/json-buffer/test/index.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@slack/client/examples/node_modules/keyv/LICENSE" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@slack/client/examples/node_modules/keyv/README.md" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@slack/client/examples/node_modules/keyv/package.json" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@slack/client/examples/node_modules/keyv/src/index.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@slack/client/examples/node_modules/loglevel/.editorconfig" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@slack/client/examples/node_modules/loglevel/.jshintrc" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@slack/client/examples/node_modules/loglevel/.travis.yml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@slack/client/examples/node_modules/loglevel/CONTRIBUTING.md" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@slack/client/examples/node_modules/loglevel/Gruntfile.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@slack/client/examples/node_modules/loglevel/LICENSE-MIT" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@slack/client/examples/node_modules/loglevel/README.md" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@slack/client/examples/node_modules/loglevel/_config.yml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@slack/client/examples/node_modules/loglevel/bower.json" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@slack/client/examples/node_modules/loglevel/dist/loglevel.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@slack/client/examples/node_modules/loglevel/dist/loglevel.min.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@slack/client/examples/node_modules/loglevel/lib/.jshintrc" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@slack/client/examples/node_modules/loglevel/lib/loglevel.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@slack/client/examples/node_modules/loglevel/package.json" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@slack/client/examples/node_modules/loglevel/test/.jshintrc" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@slack/client/examples/node_modules/loglevel/test/console-fallback-test.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@slack/client/examples/node_modules/loglevel/test/cookie-test.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@slack/client/examples/node_modules/loglevel/test/default-level-test.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@slack/client/examples/node_modules/loglevel/test/get-current-level-test.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@slack/client/examples/node_modules/loglevel/test/global-integration-with-new-context.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@slack/client/examples/node_modules/loglevel/test/global-integration.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@slack/client/examples/node_modules/loglevel/test/integration-smoke-test.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@slack/client/examples/node_modules/loglevel/test/level-setting-test.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@slack/client/examples/node_modules/loglevel/test/local-storage-test.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@slack/client/examples/node_modules/loglevel/test/manual-test.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@slack/client/examples/node_modules/loglevel/test/method-factory-test.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@slack/client/examples/node_modules/loglevel/test/multiple-logger-test.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@slack/client/examples/node_modules/loglevel/test/node-integration.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@slack/client/examples/node_modules/loglevel/test/test-context-using-apply.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@slack/client/examples/node_modules/loglevel/test/test-helpers.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@slack/client/examples/node_modules/loglevel/test/test-qunit.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@slack/client/examples/node_modules/loglevel/test/test-qunit.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@slack/client/examples/node_modules/loglevel/test/vendor/json2.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@slack/client/examples/node_modules/lowercase-keys/index.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@slack/client/examples/node_modules/lowercase-keys/license" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@slack/client/examples/node_modules/lowercase-keys/readme.md" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@slack/client/examples/node_modules/mime-db/HISTORY.md" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@slack/client/examples/node_modules/mime-db/LICENSE" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@slack/client/examples/node_modules/mime-db/README.md" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@slack/client/examples/node_modules/mime-db/db.json" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@slack/client/examples/node_modules/mime-db/index.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@slack/client/examples/node_modules/mime-types/HISTORY.md" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@slack/client/examples/node_modules/mime-types/LICENSE" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@slack/client/examples/node_modules/mime-types/README.md" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@slack/client/examples/node_modules/mime-types/index.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@slack/client/examples/node_modules/mimic-response/index.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@slack/client/examples/node_modules/mimic-response/license" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@slack/client/examples/node_modules/mimic-response/readme.md" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@slack/client/examples/node_modules/normalize-url/index.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@slack/client/examples/node_modules/normalize-url/license" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@slack/client/examples/node_modules/normalize-url/readme.md" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@slack/client/examples/node_modules/object-assign/index.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@slack/client/examples/node_modules/object-assign/license" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@slack/client/examples/node_modules/object-assign/readme.md" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@slack/client/examples/node_modules/object-keys/.editorconfig" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@slack/client/examples/node_modules/object-keys/.eslintrc" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@slack/client/examples/node_modules/object-keys/.jscs.json" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@slack/client/examples/node_modules/object-keys/.travis.yml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@slack/client/examples/node_modules/object-keys/CHANGELOG.md" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@slack/client/examples/node_modules/object-keys/LICENSE" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@slack/client/examples/node_modules/object-keys/README.md" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@slack/client/examples/node_modules/object-keys/index.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@slack/client/examples/node_modules/object-keys/isArguments.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@slack/client/examples/node_modules/object-keys/package.json" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@slack/client/examples/node_modules/object-keys/test/index.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@slack/client/examples/node_modules/object.entries/.eslintrc" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@slack/client/examples/node_modules/object.entries/.jscs.json" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@slack/client/examples/node_modules/object.entries/.travis.yml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@slack/client/examples/node_modules/object.entries/CHANGELOG.md" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@slack/client/examples/node_modules/object.entries/LICENSE" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@slack/client/examples/node_modules/object.entries/README.md" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@slack/client/examples/node_modules/object.entries/implementation.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@slack/client/examples/node_modules/object.entries/index.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@slack/client/examples/node_modules/object.entries/package.json" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@slack/client/examples/node_modules/object.entries/polyfill.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@slack/client/examples/node_modules/object.entries/shim.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@slack/client/examples/node_modules/object.entries/test.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@slack/client/examples/node_modules/object.entries/test/.eslintrc" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@slack/client/examples/node_modules/object.entries/test/index.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@slack/client/examples/node_modules/object.entries/test/shimmed.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@slack/client/examples/node_modules/object.entries/test/tests.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@slack/client/examples/node_modules/object.getownpropertydescriptors/.editorconfig" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@slack/client/examples/node_modules/object.getownpropertydescriptors/.eslintrc" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@slack/client/examples/node_modules/object.getownpropertydescriptors/.jscs.json" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@slack/client/examples/node_modules/object.getownpropertydescriptors/.travis.yml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@slack/client/examples/node_modules/object.getownpropertydescriptors/CHANGELOG.md" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@slack/client/examples/node_modules/object.getownpropertydescriptors/LICENSE" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@slack/client/examples/node_modules/object.getownpropertydescriptors/Makefile" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@slack/client/examples/node_modules/object.getownpropertydescriptors/README.md" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@slack/client/examples/node_modules/object.getownpropertydescriptors/implementation.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@slack/client/examples/node_modules/object.getownpropertydescriptors/index.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@slack/client/examples/node_modules/object.getownpropertydescriptors/package.json" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@slack/client/examples/node_modules/object.getownpropertydescriptors/polyfill.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@slack/client/examples/node_modules/object.getownpropertydescriptors/shim.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@slack/client/examples/node_modules/object.getownpropertydescriptors/test/.eslintrc" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@slack/client/examples/node_modules/object.getownpropertydescriptors/test/index.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@slack/client/examples/node_modules/object.getownpropertydescriptors/test/shimmed.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@slack/client/examples/node_modules/object.getownpropertydescriptors/test/tests.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@slack/client/examples/node_modules/object.values/.eslintrc" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@slack/client/examples/node_modules/object.values/.jscs.json" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@slack/client/examples/node_modules/object.values/.travis.yml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@slack/client/examples/node_modules/object.values/CHANGELOG.md" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@slack/client/examples/node_modules/object.values/LICENSE" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@slack/client/examples/node_modules/object.values/README.md" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@slack/client/examples/node_modules/object.values/implementation.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@slack/client/examples/node_modules/object.values/index.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@slack/client/examples/node_modules/object.values/package.json" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@slack/client/examples/node_modules/object.values/polyfill.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@slack/client/examples/node_modules/object.values/shim.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@slack/client/examples/node_modules/object.values/test/.eslintrc" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@slack/client/examples/node_modules/object.values/test/index.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@slack/client/examples/node_modules/object.values/test/shimmed.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@slack/client/examples/node_modules/object.values/test/tests.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@slack/client/examples/node_modules/p-cancelable/index.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@slack/client/examples/node_modules/p-cancelable/license" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@slack/client/examples/node_modules/p-cancelable/readme.md" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@slack/client/examples/node_modules/p-defer/index.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@slack/client/examples/node_modules/p-defer/license" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@slack/client/examples/node_modules/p-defer/readme.md" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@slack/client/examples/node_modules/p-finally/index.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@slack/client/examples/node_modules/p-finally/license" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@slack/client/examples/node_modules/p-finally/readme.md" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@slack/client/examples/node_modules/p-is-promise/index.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@slack/client/examples/node_modules/p-is-promise/license" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@slack/client/examples/node_modules/p-is-promise/readme.md" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@slack/client/examples/node_modules/p-queue/index.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@slack/client/examples/node_modules/p-queue/license" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@slack/client/examples/node_modules/p-queue/readme.md" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@slack/client/examples/node_modules/p-retry/index.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@slack/client/examples/node_modules/p-retry/license" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@slack/client/examples/node_modules/p-retry/readme.md" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@slack/client/examples/node_modules/p-timeout/index.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@slack/client/examples/node_modules/p-timeout/license" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@slack/client/examples/node_modules/p-timeout/readme.md" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@slack/client/examples/node_modules/pify/index.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@slack/client/examples/node_modules/pify/license" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@slack/client/examples/node_modules/pify/readme.md" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@slack/client/examples/node_modules/prepend-http/index.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@slack/client/examples/node_modules/prepend-http/license" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@slack/client/examples/node_modules/prepend-http/readme.md" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@slack/client/examples/node_modules/process-nextick-args/index.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@slack/client/examples/node_modules/process-nextick-args/license.md" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@slack/client/examples/node_modules/process-nextick-args/readme.md" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@slack/client/examples/node_modules/query-string/index.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@slack/client/examples/node_modules/query-string/license" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@slack/client/examples/node_modules/query-string/readme.md" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@slack/client/examples/node_modules/readable-stream/.travis.yml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@slack/client/examples/node_modules/readable-stream/CONTRIBUTING.md" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@slack/client/examples/node_modules/readable-stream/GOVERNANCE.md" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@slack/client/examples/node_modules/readable-stream/LICENSE" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@slack/client/examples/node_modules/readable-stream/README.md" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@slack/client/examples/node_modules/readable-stream/doc/wg-meetings/2015-01-30.md" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@slack/client/examples/node_modules/readable-stream/duplex-browser.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@slack/client/examples/node_modules/readable-stream/duplex.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@slack/client/examples/node_modules/readable-stream/lib/_stream_duplex.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@slack/client/examples/node_modules/readable-stream/lib/_stream_passthrough.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@slack/client/examples/node_modules/readable-stream/lib/_stream_readable.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@slack/client/examples/node_modules/readable-stream/lib/_stream_transform.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@slack/client/examples/node_modules/readable-stream/lib/_stream_writable.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@slack/client/examples/node_modules/readable-stream/lib/internal/streams/BufferList.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@slack/client/examples/node_modules/readable-stream/lib/internal/streams/destroy.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@slack/client/examples/node_modules/readable-stream/lib/internal/streams/stream-browser.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@slack/client/examples/node_modules/readable-stream/lib/internal/streams/stream.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@slack/client/examples/node_modules/readable-stream/package.json" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@slack/client/examples/node_modules/readable-stream/passthrough.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@slack/client/examples/node_modules/readable-stream/readable-browser.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@slack/client/examples/node_modules/readable-stream/readable.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@slack/client/examples/node_modules/readable-stream/transform.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@slack/client/examples/node_modules/readable-stream/writable-browser.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@slack/client/examples/node_modules/readable-stream/writable.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@slack/client/examples/node_modules/responselike/LICENSE" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@slack/client/examples/node_modules/responselike/README.md" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@slack/client/examples/node_modules/responselike/package.json" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@slack/client/examples/node_modules/responselike/src/index.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@slack/client/examples/node_modules/retry/License" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@slack/client/examples/node_modules/retry/Makefile" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@slack/client/examples/node_modules/retry/README.md" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@slack/client/examples/node_modules/retry/equation.gif" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@slack/client/examples/node_modules/retry/example/dns.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@slack/client/examples/node_modules/retry/example/stop.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@slack/client/examples/node_modules/retry/index.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@slack/client/examples/node_modules/retry/lib/retry.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@slack/client/examples/node_modules/retry/lib/retry_operation.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@slack/client/examples/node_modules/retry/package.json" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@slack/client/examples/node_modules/retry/test/common.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@slack/client/examples/node_modules/retry/test/integration/test-forever.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@slack/client/examples/node_modules/retry/test/integration/test-retry-operation.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@slack/client/examples/node_modules/retry/test/integration/test-retry-wrap.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@slack/client/examples/node_modules/retry/test/integration/test-timeouts.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@slack/client/examples/node_modules/retry/test/runner.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@slack/client/examples/node_modules/safe-buffer/.travis.yml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@slack/client/examples/node_modules/safe-buffer/LICENSE" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@slack/client/examples/node_modules/safe-buffer/README.md" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@slack/client/examples/node_modules/safe-buffer/index.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@slack/client/examples/node_modules/safe-buffer/package.json" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@slack/client/examples/node_modules/safe-buffer/test.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@slack/client/examples/node_modules/sort-keys/index.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@slack/client/examples/node_modules/sort-keys/license" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@slack/client/examples/node_modules/sort-keys/readme.md" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@slack/client/examples/node_modules/strict-uri-encode/index.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@slack/client/examples/node_modules/strict-uri-encode/license" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@slack/client/examples/node_modules/strict-uri-encode/readme.md" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@slack/client/examples/node_modules/string_decoder/LICENSE" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@slack/client/examples/node_modules/string_decoder/README.md" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@slack/client/examples/node_modules/string_decoder/lib/string_decoder.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@slack/client/examples/node_modules/string_decoder/package.json" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@slack/client/examples/node_modules/timed-out/index.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@slack/client/examples/node_modules/timed-out/license" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@slack/client/examples/node_modules/timed-out/readme.md" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@slack/client/examples/node_modules/url-join/.travis.yml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@slack/client/examples/node_modules/url-join/LICENSE" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@slack/client/examples/node_modules/url-join/README.md" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@slack/client/examples/node_modules/url-join/bower.json" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@slack/client/examples/node_modules/url-join/lib/url-join.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@slack/client/examples/node_modules/url-join/package.json" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@slack/client/examples/node_modules/url-join/test/tests.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@slack/client/examples/node_modules/url-parse-lax/index.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@slack/client/examples/node_modules/url-parse-lax/license" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@slack/client/examples/node_modules/url-parse-lax/readme.md" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@slack/client/examples/node_modules/url-to-options/LICENSE" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@slack/client/examples/node_modules/url-to-options/README.md" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@slack/client/examples/node_modules/url-to-options/index.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@slack/client/examples/node_modules/util-deprecate/History.md" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@slack/client/examples/node_modules/util-deprecate/LICENSE" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@slack/client/examples/node_modules/util-deprecate/README.md" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@slack/client/examples/node_modules/util-deprecate/browser.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@slack/client/examples/node_modules/util-deprecate/node.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@slack/client/examples/node_modules/util-deprecate/package.json" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@slack/client/examples/node_modules/ws/LICENSE" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@slack/client/examples/node_modules/ws/README.md" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@slack/client/examples/node_modules/ws/index.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@slack/client/examples/node_modules/ws/lib/buffer-util.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@slack/client/examples/node_modules/ws/lib/constants.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@slack/client/examples/node_modules/ws/lib/event-target.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@slack/client/examples/node_modules/ws/lib/extension.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@slack/client/examples/node_modules/ws/lib/permessage-deflate.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@slack/client/examples/node_modules/ws/lib/receiver.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@slack/client/examples/node_modules/ws/lib/sender.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@slack/client/examples/node_modules/ws/lib/validation.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@slack/client/examples/node_modules/ws/lib/websocket-server.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@slack/client/examples/node_modules/ws/lib/websocket.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@slack/client/examples/package.json" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@slack/client/examples/upload-a-file.js" afterPath="$PROJECT_DIR$/node_modules/@slack/client/examples/upload-a-file.js" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@slack/client/migration_guide_v4.md" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@slack/client/package.json" afterPath="$PROJECT_DIR$/node_modules/@slack/client/package.json" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@slack/client/rtm-testing.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@slack/client/src/IncomingWebhook.spec.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@slack/client/src/IncomingWebhook.ts" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@slack/client/src/KeepAlive.ts" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@slack/client/src/RTMClient.ts" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@slack/client/src/WebClient.spec.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@slack/client/src/WebClient.ts" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@slack/client/src/errors.ts" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@slack/client/src/index.ts" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@slack/client/src/logger.ts" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@slack/client/src/methods.ts" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@slack/client/src/mocha.opts" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@slack/client/src/retry-policies.ts" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@slack/client/src/util.ts" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@slack/client/support/jsdoc-to-markdown.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@slack/client/support/jsdoc/@slack-client-dist-IncomingWebhook.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@slack/client/support/jsdoc/@slack-client-dist-KeepAlive.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@slack/client/support/jsdoc/@slack-client-dist-errors.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@slack/client/support/jsdoc/@slack-client-dist-logger.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@slack/client/support/jsdoc/@slack-client-dist-methods.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@slack/client/support/jsdoc/@slack-client-dist-retry-policies.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@slack/client/support/jsdoc/@slack-client-dist-util.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@slack/client/support/jsdoc/@slack-client.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@slack/client/support/templates/docs-main.hbs" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@slack/client/support/templates/docs.hbs" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@slack/client/support/templates/members.hbs" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@slack/client/tmp1.txt" afterPath="$PROJECT_DIR$/node_modules/@slack/client/tmp1.txt" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@slack/client/tsconfig.json" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@slack/client/tslint.json" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@slack/client/types/eventemitter3.d.ts" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@slack/client/types/object.entries.d.ts" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@slack/client/types/object.values.d.ts" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@slack/client/web-testing.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@types/delay/LICENSE" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@types/delay/README.md" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@types/delay/index.d.ts" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@types/delay/package.json" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@types/events/LICENSE" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@types/events/README.md" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@types/events/index.d.ts" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@types/events/package.json" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@types/form-data/LICENSE" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@types/form-data/README.md" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@types/form-data/index.d.ts" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@types/form-data/package.json" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@types/got/LICENSE" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@types/got/README.md" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@types/got/index.d.ts" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@types/got/package.json" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@types/is-stream/LICENSE" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@types/is-stream/README.md" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@types/is-stream/index.d.ts" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@types/is-stream/package.json" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@types/loglevel/LICENSE" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@types/loglevel/README.md" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@types/loglevel/index.d.ts" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@types/loglevel/package.json" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@types/node/LICENSE" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@types/node/README.md" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@types/node/index.d.ts" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@types/node/inspector.d.ts" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@types/node/package.json" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@types/p-cancelable/LICENSE" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@types/p-cancelable/README.md" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@types/p-cancelable/index.d.ts" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@types/p-cancelable/package.json" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@types/p-queue/LICENSE" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@types/p-queue/README.md" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@types/p-queue/index.d.ts" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@types/p-queue/package.json" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@types/p-retry/LICENSE" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@types/p-retry/README.md" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@types/p-retry/index.d.ts" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@types/p-retry/package.json" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@types/retry/LICENSE" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@types/retry/README.md" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@types/retry/index.d.ts" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@types/retry/package.json" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@types/url-join/README.md" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@types/url-join/index.d.ts" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@types/url-join/package.json" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@types/url-join/types-metadata.json" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@types/ws/LICENSE" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@types/ws/README.md" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@types/ws/index.d.ts" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@types/ws/package.json" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/async-limiter/.travis.yml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/async-limiter/LICENSE" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/async-limiter/coverage/coverage.json" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/async-limiter/coverage/lcov-report/async-throttle/index.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/async-limiter/coverage/lcov-report/async-throttle/index.js.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/async-limiter/coverage/lcov-report/base.css" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/async-limiter/coverage/lcov-report/index.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/async-limiter/coverage/lcov-report/prettify.css" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/async-limiter/coverage/lcov-report/prettify.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/async-limiter/coverage/lcov-report/sort-arrow-sprite.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/async-limiter/coverage/lcov-report/sorter.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/async-limiter/coverage/lcov.info" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/async-limiter/index.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/async-limiter/package.json" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/async-limiter/readme.md" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/cacheable-request/LICENSE" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/cacheable-request/README.md" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/cacheable-request/node_modules/lowercase-keys/index.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/cacheable-request/node_modules/lowercase-keys/package.json" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/cacheable-request/node_modules/lowercase-keys/readme.md" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/cacheable-request/package.json" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/cacheable-request/src/index.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/clone-response/LICENSE" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/clone-response/README.md" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/clone-response/package.json" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/clone-response/src/index.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/decode-uri-component/index.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/decode-uri-component/license" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/decode-uri-component/package.json" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/decode-uri-component/readme.md" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/decompress-response/index.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/decompress-response/license" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/decompress-response/package.json" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/decompress-response/readme.md" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/define-properties/.editorconfig" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/define-properties/.eslintrc" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/define-properties/.jscs.json" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/define-properties/.npmignore" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/define-properties/.travis.yml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/define-properties/CHANGELOG.md" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/define-properties/LICENSE" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/define-properties/README.md" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/define-properties/index.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/define-properties/package.json" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/define-properties/test/index.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/delay/index.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/delay/license" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/delay/package.json" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/delay/readme.md" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/duplexer3/LICENSE.md" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/duplexer3/README.md" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/duplexer3/index.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/duplexer3/package.json" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/es-abstract/.editorconfig" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/es-abstract/.eslintrc" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/es-abstract/.jscs.json" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/es-abstract/.nycrc" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/es-abstract/.travis.yml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/es-abstract/CHANGELOG.md" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/es-abstract/LICENSE" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/es-abstract/Makefile" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/es-abstract/README.md" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/es-abstract/es2015.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/es-abstract/es2016.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/es-abstract/es2017.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/es-abstract/es5.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/es-abstract/es6.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/es-abstract/es7.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/es-abstract/helpers/assign.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/es-abstract/helpers/isFinite.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/es-abstract/helpers/isNaN.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/es-abstract/helpers/isPrimitive.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/es-abstract/helpers/mod.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/es-abstract/helpers/sign.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/es-abstract/index.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/es-abstract/operations/2015.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/es-abstract/operations/2016.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/es-abstract/operations/2017.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/es-abstract/operations/es5.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/es-abstract/package.json" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/es-abstract/test/.eslintrc" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/es-abstract/test/diffOps.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/es-abstract/test/es2015.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/es-abstract/test/es2016.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/es-abstract/test/es2017.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/es-abstract/test/es5.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/es-abstract/test/es6.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/es-abstract/test/es7.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/es-abstract/test/helpers/values.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/es-abstract/test/index.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/es-abstract/test/tests.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/es-to-primitive/.eslintrc" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/es-to-primitive/.jscs.json" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/es-to-primitive/.npmignore" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/es-to-primitive/.travis.yml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/es-to-primitive/CHANGELOG.md" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/es-to-primitive/LICENSE" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/es-to-primitive/Makefile" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/es-to-primitive/README.md" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/es-to-primitive/es5.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/es-to-primitive/es6.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/es-to-primitive/helpers/isPrimitive.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/es-to-primitive/index.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/es-to-primitive/package.json" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/es-to-primitive/test/es5.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/es-to-primitive/test/es6.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/es-to-primitive/test/index.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/eventemitter3/README.md" afterPath="$PROJECT_DIR$/node_modules/eventemitter3/README.md" />
+      <change beforePath="$PROJECT_DIR$/node_modules/eventemitter3/index.d.ts" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/eventemitter3/index.js" afterPath="$PROJECT_DIR$/node_modules/eventemitter3/index.js" />
+      <change beforePath="$PROJECT_DIR$/node_modules/eventemitter3/package.json" afterPath="$PROJECT_DIR$/node_modules/eventemitter3/package.json" />
+      <change beforePath="$PROJECT_DIR$/node_modules/eventemitter3/umd/eventemitter3.min.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/finity/CODE_OF_CONDUCT.md" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/finity/LICENSE" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/finity/README.md" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/finity/ROADMAP.md" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/finity/index.d.ts" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/finity/lib/Finity.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/finity/lib/configuration/AsyncActionConfigurator.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/finity/lib/configuration/BaseConfigurator.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/finity/lib/configuration/GlobalConfigurator.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/finity/lib/configuration/StateConfigurator.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/finity/lib/configuration/StateMachineConfigurator.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/finity/lib/configuration/TimerConfigurator.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/finity/lib/configuration/TransitionConfigurator.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/finity/lib/configuration/TriggerConfigurator.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/finity/lib/configuration/delegateToAncestor.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/finity/lib/configuration/index.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/finity/lib/core/HierarchicalStateMachine.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/finity/lib/core/StateMachine.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/finity/lib/core/TaskScheduler.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/finity/lib/index.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/finity/lib/utils/invokeEach.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/finity/lib/utils/mapValues.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/finity/lib/utils/merge.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/finity/package.json" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/finity/umd/Finity.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/finity/umd/Finity.min.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/foreach/.npmignore" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/foreach/LICENSE" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/foreach/Makefile" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/foreach/Readme.md" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/foreach/component.json" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/foreach/index.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/foreach/package.json" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/foreach/test.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/form-data/README.md" afterPath="$PROJECT_DIR$/node_modules/form-data/README.md" />
+      <change beforePath="$PROJECT_DIR$/node_modules/form-data/README.md.bak" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/form-data/lib/form_data.js" afterPath="$PROJECT_DIR$/node_modules/form-data/lib/form_data.js" />
+      <change beforePath="$PROJECT_DIR$/node_modules/form-data/package.json" afterPath="$PROJECT_DIR$/node_modules/form-data/package.json" />
+      <change beforePath="$PROJECT_DIR$/node_modules/from2/.travis.yml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/from2/LICENSE.md" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/from2/README.md" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/from2/index.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/from2/package.json" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/from2/test.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/function-bind/.editorconfig" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/function-bind/.eslintrc" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/function-bind/.jscs.json" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/function-bind/.npmignore" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/function-bind/.travis.yml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/function-bind/LICENSE" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/function-bind/README.md" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/function-bind/implementation.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/function-bind/index.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/function-bind/package.json" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/function-bind/test/.eslintrc" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/function-bind/test/index.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/get-stream/buffer-stream.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/get-stream/index.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/get-stream/license" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/get-stream/package.json" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/get-stream/readme.md" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/got/errors.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/got/index.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/got/license" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/got/node_modules/p-cancelable/index.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/got/node_modules/p-cancelable/license" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/got/node_modules/p-cancelable/package.json" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/got/node_modules/p-cancelable/readme.md" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/got/package.json" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/got/readme.md" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/has-symbol-support-x/.editorconfig" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/has-symbol-support-x/.eslintignore" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/has-symbol-support-x/.eslintrc.json" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/has-symbol-support-x/.nvmrc" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/has-symbol-support-x/.travis.yml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/has-symbol-support-x/.uglifyjsrc.json" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/has-symbol-support-x/LICENSE" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/has-symbol-support-x/README.md" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/has-symbol-support-x/badges.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/has-symbol-support-x/index.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/has-symbol-support-x/lib/has-symbol-support-x.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/has-symbol-support-x/lib/has-symbol-support-x.min.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/has-symbol-support-x/lib/has-symbol-support-x.min.js.map" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/has-symbol-support-x/package.json" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/has-symbol-support-x/tests/index.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/has-symbol-support-x/tests/run.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/has-symbol-support-x/tests/spec/test.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/has-to-string-tag-x/.editorconfig" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/has-to-string-tag-x/.eslintignore" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/has-to-string-tag-x/.eslintrc.json" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/has-to-string-tag-x/.nvmrc" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/has-to-string-tag-x/.travis.yml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/has-to-string-tag-x/.uglifyjsrc.json" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/has-to-string-tag-x/LICENSE" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/has-to-string-tag-x/README.md" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/has-to-string-tag-x/badges.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/has-to-string-tag-x/index.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/has-to-string-tag-x/lib/has-to-string-tag-x.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/has-to-string-tag-x/lib/has-to-string-tag-x.min.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/has-to-string-tag-x/lib/has-to-string-tag-x.min.js.map" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/has-to-string-tag-x/package.json" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/has/.jshintrc" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/has/.npmignore" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/has/LICENSE-MIT" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/has/README.mkd" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/has/package.json" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/has/src/index.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/has/test/.jshintrc" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/has/test/index.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/http-cache-semantics/README.md" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/http-cache-semantics/node4/index.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/http-cache-semantics/package.json" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/into-stream/index.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/into-stream/license" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/into-stream/package.json" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/into-stream/readme.md" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/is-callable/.eslintrc" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/is-callable/.jscs.json" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/is-callable/.npmignore" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/is-callable/.travis.yml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/is-callable/CHANGELOG.md" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/is-callable/LICENSE" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/is-callable/Makefile" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/is-callable/README.md" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/is-callable/index.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/is-callable/package.json" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/is-callable/test.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/is-date-object/.eslintrc" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/is-date-object/.jscs.json" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/is-date-object/.npmignore" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/is-date-object/.travis.yml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/is-date-object/CHANGELOG.md" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/is-date-object/LICENSE" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/is-date-object/Makefile" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/is-date-object/README.md" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/is-date-object/index.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/is-date-object/package.json" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/is-date-object/test.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/is-object/.jscs.json" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/is-object/.npmignore" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/is-object/.testem.json" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/is-object/.travis.yml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/is-object/LICENSE" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/is-object/README.md" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/is-object/index.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/is-object/package.json" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/is-object/test/index.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/is-plain-obj/index.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/is-plain-obj/license" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/is-plain-obj/package.json" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/is-plain-obj/readme.md" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/is-regex/.eslintrc" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/is-regex/.jscs.json" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/is-regex/.npmignore" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/is-regex/.travis.yml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/is-regex/CHANGELOG.md" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/is-regex/LICENSE" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/is-regex/Makefile" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/is-regex/README.md" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/is-regex/index.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/is-regex/package.json" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/is-regex/test.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/is-retry-allowed/index.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/is-retry-allowed/license" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/is-retry-allowed/package.json" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/is-retry-allowed/readme.md" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/is-stream/index.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/is-stream/license" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/is-stream/package.json" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/is-stream/readme.md" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/is-symbol/.editorconfig" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/is-symbol/.eslintrc" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/is-symbol/.jscs.json" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/is-symbol/.npmignore" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/is-symbol/.nvmrc" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/is-symbol/.travis.yml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/is-symbol/CHANGELOG.md" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/is-symbol/LICENSE" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/is-symbol/Makefile" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/is-symbol/README.md" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/is-symbol/index.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/is-symbol/package.json" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/is-symbol/test/index.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/isurl/LICENSE" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/isurl/README.md" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/isurl/index.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/isurl/package.json" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/json-buffer/.npmignore" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/json-buffer/.travis.yml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/json-buffer/LICENSE" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/json-buffer/README.md" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/json-buffer/index.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/json-buffer/package.json" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/json-buffer/test/index.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/keyv/LICENSE" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/keyv/README.md" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/keyv/package.json" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/keyv/src/index.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/loglevel/.editorconfig" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/loglevel/.jshintrc" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/loglevel/.npmignore" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/loglevel/.travis.yml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/loglevel/CONTRIBUTING.md" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/loglevel/Gruntfile.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/loglevel/LICENSE-MIT" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/loglevel/README.md" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/loglevel/_config.yml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/loglevel/bower.json" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/loglevel/dist/loglevel.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/loglevel/dist/loglevel.min.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/loglevel/lib/.jshintrc" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/loglevel/lib/loglevel.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/loglevel/package.json" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/loglevel/test/.jshintrc" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/loglevel/test/console-fallback-test.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/loglevel/test/cookie-test.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/loglevel/test/default-level-test.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/loglevel/test/get-current-level-test.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/loglevel/test/global-integration-with-new-context.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/loglevel/test/global-integration.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/loglevel/test/integration-smoke-test.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/loglevel/test/level-setting-test.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/loglevel/test/local-storage-test.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/loglevel/test/manual-test.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/loglevel/test/method-factory-test.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/loglevel/test/multiple-logger-test.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/loglevel/test/node-integration.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/loglevel/test/test-context-using-apply.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/loglevel/test/test-helpers.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/loglevel/test/test-qunit.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/loglevel/test/test-qunit.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/loglevel/test/vendor/json2.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/lowercase-keys/index.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/lowercase-keys/license" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/lowercase-keys/package.json" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/lowercase-keys/readme.md" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/mimic-response/index.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/mimic-response/license" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/mimic-response/package.json" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/mimic-response/readme.md" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/normalize-url/index.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/normalize-url/license" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/normalize-url/package.json" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/normalize-url/readme.md" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/object-assign/index.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/object-assign/license" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/object-assign/package.json" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/object-assign/readme.md" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/object-keys/.editorconfig" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/object-keys/.eslintrc" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/object-keys/.jscs.json" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/object-keys/.npmignore" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/object-keys/.travis.yml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/object-keys/CHANGELOG.md" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/object-keys/LICENSE" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/object-keys/README.md" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/object-keys/index.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/object-keys/isArguments.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/object-keys/package.json" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/object-keys/test/index.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/object.entries/.eslintrc" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/object.entries/.jscs.json" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/object.entries/.npmignore" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/object.entries/.travis.yml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/object.entries/CHANGELOG.md" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/object.entries/LICENSE" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/object.entries/README.md" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/object.entries/implementation.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/object.entries/index.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/object.entries/package.json" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/object.entries/polyfill.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/object.entries/shim.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/object.entries/test.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/object.entries/test/.eslintrc" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/object.entries/test/index.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/object.entries/test/shimmed.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/object.entries/test/tests.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/object.getownpropertydescriptors/.editorconfig" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/object.getownpropertydescriptors/.eslintrc" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/object.getownpropertydescriptors/.jscs.json" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/object.getownpropertydescriptors/.npmignore" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/object.getownpropertydescriptors/.travis.yml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/object.getownpropertydescriptors/CHANGELOG.md" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/object.getownpropertydescriptors/LICENSE" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/object.getownpropertydescriptors/Makefile" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/object.getownpropertydescriptors/README.md" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/object.getownpropertydescriptors/implementation.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/object.getownpropertydescriptors/index.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/object.getownpropertydescriptors/package.json" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/object.getownpropertydescriptors/polyfill.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/object.getownpropertydescriptors/shim.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/object.getownpropertydescriptors/test/.eslintrc" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/object.getownpropertydescriptors/test/index.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/object.getownpropertydescriptors/test/shimmed.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/object.getownpropertydescriptors/test/tests.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/object.values/.eslintrc" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/object.values/.jscs.json" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/object.values/.npmignore" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/object.values/.travis.yml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/object.values/CHANGELOG.md" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/object.values/LICENSE" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/object.values/README.md" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/object.values/implementation.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/object.values/index.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/object.values/package.json" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/object.values/polyfill.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/object.values/shim.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/object.values/test/.eslintrc" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/object.values/test/index.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/object.values/test/shimmed.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/object.values/test/tests.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/p-cancelable/index.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/p-cancelable/license" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/p-cancelable/package.json" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/p-cancelable/readme.md" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/p-defer/index.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/p-defer/license" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/p-defer/package.json" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/p-defer/readme.md" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/p-finally/index.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/p-finally/license" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/p-finally/package.json" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/p-finally/readme.md" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/p-is-promise/index.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/p-is-promise/license" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/p-is-promise/package.json" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/p-is-promise/readme.md" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/p-queue/index.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/p-queue/license" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/p-queue/package.json" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/p-queue/readme.md" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/p-retry/index.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/p-retry/license" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/p-retry/package.json" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/p-retry/readme.md" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/p-timeout/index.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/p-timeout/license" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/p-timeout/package.json" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/p-timeout/readme.md" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/pify/index.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/pify/license" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/pify/package.json" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/pify/readme.md" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/prepend-http/index.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/prepend-http/license" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/prepend-http/package.json" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/prepend-http/readme.md" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/query-string/index.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/query-string/license" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/query-string/package.json" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/query-string/readme.md" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/readable-stream/package.json" afterPath="$PROJECT_DIR$/node_modules/readable-stream/package.json" />
+      <change beforePath="$PROJECT_DIR$/node_modules/responselike/LICENSE" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/responselike/README.md" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/responselike/package.json" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/responselike/src/index.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/retry/README.md" afterPath="$PROJECT_DIR$/node_modules/retry/README.md" />
+      <change beforePath="$PROJECT_DIR$/node_modules/retry/example/dns.js" afterPath="$PROJECT_DIR$/node_modules/retry/example/dns.js" />
+      <change beforePath="$PROJECT_DIR$/node_modules/retry/example/stop.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/retry/lib/retry.js" afterPath="$PROJECT_DIR$/node_modules/retry/lib/retry.js" />
+      <change beforePath="$PROJECT_DIR$/node_modules/retry/lib/retry_operation.js" afterPath="$PROJECT_DIR$/node_modules/retry/lib/retry_operation.js" />
+      <change beforePath="$PROJECT_DIR$/node_modules/retry/package.json" afterPath="$PROJECT_DIR$/node_modules/retry/package.json" />
+      <change beforePath="$PROJECT_DIR$/node_modules/retry/test/integration/test-forever.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/retry/test/integration/test-retry-operation.js" afterPath="$PROJECT_DIR$/node_modules/retry/test/integration/test-retry-operation.js" />
+      <change beforePath="$PROJECT_DIR$/node_modules/sort-keys/index.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/sort-keys/license" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/sort-keys/package.json" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/sort-keys/readme.md" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/strict-uri-encode/index.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/strict-uri-encode/license" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/strict-uri-encode/package.json" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/strict-uri-encode/readme.md" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/timed-out/index.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/timed-out/license" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/timed-out/package.json" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/timed-out/readme.md" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/url-join/.travis.yml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/url-join/LICENSE" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/url-join/README.md" afterPath="$PROJECT_DIR$/node_modules/url-join/README.md" />
+      <change beforePath="$PROJECT_DIR$/node_modules/url-join/bower.json" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/url-join/lib/url-join.js" afterPath="$PROJECT_DIR$/node_modules/url-join/lib/url-join.js" />
+      <change beforePath="$PROJECT_DIR$/node_modules/url-join/package.json" afterPath="$PROJECT_DIR$/node_modules/url-join/package.json" />
+      <change beforePath="$PROJECT_DIR$/node_modules/url-join/test/tests.js" afterPath="$PROJECT_DIR$/node_modules/url-join/test/tests.js" />
+      <change beforePath="$PROJECT_DIR$/node_modules/url-parse-lax/index.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/url-parse-lax/license" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/url-parse-lax/package.json" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/url-parse-lax/readme.md" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/url-to-options/LICENSE" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/url-to-options/README.md" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/url-to-options/index.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/url-to-options/package.json" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/ws/LICENSE" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/ws/README.md" afterPath="$PROJECT_DIR$/node_modules/ws/README.md" />
+      <change beforePath="$PROJECT_DIR$/node_modules/ws/index.js" afterPath="$PROJECT_DIR$/node_modules/ws/index.js" />
+      <change beforePath="$PROJECT_DIR$/node_modules/ws/lib/buffer-util.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/ws/lib/constants.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/ws/lib/event-target.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/ws/lib/extension.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/ws/lib/permessage-deflate.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/ws/lib/receiver.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/ws/lib/sender.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/ws/lib/validation.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/ws/lib/websocket-server.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/ws/lib/websocket.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/ws/package.json" afterPath="$PROJECT_DIR$/node_modules/ws/package.json" />
+      <change beforePath="$PROJECT_DIR$/package.json" afterPath="$PROJECT_DIR$/package.json" />
+      <change beforePath="$PROJECT_DIR$/server/slackClient.js" afterPath="$PROJECT_DIR$/server/slackClient.js" />
+    </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
     <ignored path="$PROJECT_DIR$/tmp/" />
@@ -13,12 +1461,12 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file leaf-file-name="package.json" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/package.json">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <caret line="15" column="0" lean-forward="false" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -27,8 +1475,8 @@
       <file leaf-file-name="service.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/server/service.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="144">
-              <caret line="8" column="0" lean-forward="false" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
+            <state relative-caret-position="126">
+              <caret line="7" column="0" lean-forward="false" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -37,8 +1485,28 @@
       <file leaf-file-name="slackClient.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/server/slackClient.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="144">
-              <caret line="8" column="0" lean-forward="true" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
+            <state relative-caret-position="275">
+              <caret line="22" column="86" lean-forward="false" selection-start-line="22" selection-start-column="86" selection-end-line="22" selection-end-column="86" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="witClient.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/server/witClient.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="90">
+              <caret line="5" column="28" lean-forward="false" selection-start-line="5" selection-start-column="28" selection-end-line="5" selection-end-column="28" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="wit.txt" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/wit.txt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="99" lean-forward="true" selection-start-line="0" selection-start-column="99" selection-end-line="0" selection-end-column="107" />
               <folding />
             </state>
           </provider>
@@ -47,8 +1515,8 @@
       <file leaf-file-name="run.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/bin/run.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="162">
-              <caret line="9" column="93" lean-forward="false" selection-start-line="9" selection-start-column="93" selection-end-line="9" selection-end-column="93" />
+            <state relative-caret-position="198">
+              <caret line="11" column="50" lean-forward="false" selection-start-line="11" selection-start-column="50" selection-end-line="11" selection-end-column="50" />
               <folding />
             </state>
           </provider>
@@ -56,11 +1524,17 @@
       </file>
     </leaf>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/bin/run.js" />
         <option value="$PROJECT_DIR$/server/service.js" />
+        <option value="$PROJECT_DIR$/package.json" />
+        <option value="$PROJECT_DIR$/wit.txt" />
+        <option value="$PROJECT_DIR$/bin/run.js" />
+        <option value="$PROJECT_DIR$/server/witClient.js" />
         <option value="$PROJECT_DIR$/server/slackClient.js" />
       </list>
     </option>
@@ -81,11 +1555,11 @@
     <handled-path value="$PROJECT_DIR$/node_modules" />
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="2278" />
-    <option name="y" value="195" />
-    <option name="width" value="1410" />
-    <option name="height" value="785" />
+    <option name="x" value="1920" />
+    <option name="width" value="1920" />
+    <option name="height" value="1080" />
   </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
     <navigator currentView="ProjectPane" proportions="" version="1">
       <flattenPackages />
@@ -101,7 +1575,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -112,18 +1585,24 @@
             <path>
               <item name="iris" type="b2602c69:ProjectViewProjectNode" />
               <item name="iris" type="462c0819:PsiDirectoryNode" />
+              <item name="bin" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="iris" type="b2602c69:ProjectViewProjectNode" />
+              <item name="iris" type="462c0819:PsiDirectoryNode" />
               <item name="server" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
       <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$USER_HOME$/Documents/repos/products-dashboard" />
     <property name="settings.editor.selected.configurable" value="Settings.JavaScript" />
     <property name="JavaScriptWeakerCompletionTypeGuess" value="true" />
     <property name="HbShouldOpenHtmlAsHb" value="" />
@@ -140,6 +1619,19 @@
       </list>
     </option>
   </component>
+  <component name="RunManager">
+    <configuration name="run.js" type="NodeJSConfigurationType" factoryName="Node.js" temporary="true" path-to-js-file="run.js" working-dir="$PROJECT_DIR$/bin">
+      <envs>
+        <env name="SLACK_TOKEN" value="xoxb-347700751264-Dvdb1azGNALIYcqkjqVC6LMl" />
+        <env name="WIT_TOKEN" value="X5ZGZ25JR7M6SKYBWN36SMCTMVSMYG6Z" />
+      </envs>
+    </configuration>
+    <recent_temporary>
+      <list size="1">
+        <item index="0" class="java.lang.String" itemvalue="Node.js.run.js" />
+      </list>
+    </recent_temporary>
+  </component>
   <component name="ShelveChangesManager" show_recycled="false">
     <option name="remove_strategy" value="false" />
   </component>
@@ -153,33 +1645,50 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1523982913323</updated>
-      <workItem from="1523982914441" duration="1911000" />
+      <workItem from="1523982914441" duration="11774000" />
+      <workItem from="1524065591213" duration="1082000" />
+      <workItem from="1524150550412" duration="5849000" />
     </task>
+    <task id="LOCAL-00001" summary="Create slack conection bot">
+      <created>1523987306921</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1523987306921</updated>
+    </task>
+    <task id="LOCAL-00002" summary="Create slack conection bot">
+      <created>1524005841560</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1524005841560</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="1911000" />
+    <option name="totallyTimeSpent" value="18705000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="2278" y="195" width="1920" height="1080" extended-state="6" />
+    <frame x="1920" y="0" width="1920" height="1080" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.13072917" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Docker" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Docker" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.38129497" sideWeight="0.5104167" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.38129497" sideWeight="0.48958334" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32991803" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33093524" sideWeight="0.48541668" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
@@ -189,6 +1698,10 @@
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
   </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Create slack conection bot" />
+    <option name="LAST_COMMIT_MESSAGE" value="Create slack conection bot" />
+  </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
     <watches-manager />
@@ -196,32 +1709,120 @@
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/package.json">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/bin/run.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="162">
-          <caret line="9" column="93" lean-forward="false" selection-start-line="9" selection-start-column="93" selection-end-line="9" selection-end-column="93" />
+        <state relative-caret-position="270">
+          <caret line="15" column="0" lean-forward="false" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/server/service.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="144">
-          <caret line="8" column="0" lean-forward="false" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
+        <state relative-caret-position="126">
+          <caret line="7" column="0" lean-forward="false" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bin/run.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="108">
+          <caret line="6" column="0" lean-forward="false" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/server/slackClient.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="144">
-          <caret line="8" column="0" lean-forward="true" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
+        <state relative-caret-position="360">
+          <caret line="20" column="2" lean-forward="false" selection-start-line="20" selection-start-column="2" selection-end-line="20" selection-end-column="2" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/package.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="15" column="0" lean-forward="false" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/server/service.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="126">
+          <caret line="7" column="0" lean-forward="false" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bin/run.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="108">
+          <caret line="6" column="0" lean-forward="false" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/server/slackClient.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="216">
+          <caret line="12" column="25" lean-forward="false" selection-start-line="12" selection-start-column="25" selection-end-line="12" selection-end-column="25" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/package.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="15" column="0" lean-forward="false" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/node_modules/lodash/lodash.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="199">
+          <caret line="4941" column="7" lean-forward="true" selection-start-line="4941" selection-start-column="7" selection-end-line="4941" selection-end-column="7" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bin/run.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="198">
+          <caret line="11" column="50" lean-forward="false" selection-start-line="11" selection-start-column="50" selection-end-line="11" selection-end-column="50" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wit.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="99" lean-forward="true" selection-start-line="0" selection-start-column="99" selection-end-line="0" selection-end-column="107" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/server/service.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="126">
+          <caret line="7" column="0" lean-forward="false" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/server/witClient.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="5" column="28" lean-forward="false" selection-start-line="5" selection-start-column="28" selection-end-line="5" selection-end-column="28" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/server/slackClient.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="275">
+          <caret line="22" column="86" lean-forward="false" selection-start-line="22" selection-start-column="86" selection-end-line="22" selection-end-column="86" />
           <folding />
         </state>
       </provider>
